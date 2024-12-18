@@ -40,4 +40,4 @@ To analyze and optimize sales performance by uncovering actionable insights, suc
 
 ### **Files:**
 - main.py - has the code for data visualization using streamlit.
-- data_handling.py - has the code for data retrieving, data cleaning and SQL server connection.
+- Data_handling.py - has the code for data retrieving, data cleaning and SQL server connection.
