@@ -6,7 +6,7 @@ To analyze and optimize sales performance by uncovering actionable insights, suc
 2. Cleaned, structured data stored in SQL Server for efficient querying.
 3. An interactive Streamlit dashboard for visualizing data trends in real-time.
 ### Tools & Technologies Used:
-1.Data Extraction: Kaggle API, Python
+1. Data Extraction: Kaggle API, Python
 2. Data Cleaning: Pandas library in Python
 3. Data Storage: SQL Server (Relational database -using PostgreSQL)
 4. Data Analysis: SQL queries (using GROUP BY, HAVING and joins)
@@ -37,3 +37,7 @@ To analyze and optimize sales performance by uncovering actionable insights, suc
 - Display SQL query results as data frames from the DB.
 - Dynamic user interactions for viewing the data.
 - Real-time connection to the SQL database for seamless updates.
+
+### **Files:**
+- main.py - has the code for data visualization using streamlit.
+- data_handling.py - has the code for data retrieving, data cleaning and SQL server connection.
