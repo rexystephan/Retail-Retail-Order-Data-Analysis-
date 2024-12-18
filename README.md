@@ -18,14 +18,14 @@ To analyze and optimize sales performance by uncovering actionable insights, suc
      API setup and dataset retrieval using the Kaggle library.
      Dataset downloaded as orders.csv.
 #### Step 2: Data Cleaning
-**Tools**: Python (Pandas library)
-**Actions**:
-- Standardized column names for SQL compatibility.
-- Handled missing values.
-- Derived new columns:
-    * Discount: discount_percent * list_price*0.01
-    * sale_price: list_price-discount
-    * Profit: sale_price - cost_price
+- **Tools**: Python (Pandas library)
+- **Actions**:
+     * Standardized column names for SQL compatibility.
+     * Handled missing values.
+     * Derived new columns:
+         - Discount: discount_percent * list_price*0.01
+         - sale_price: list_price-discount
+         - Profit: sale_price - cost_price
 #### Step 3: SQL Server Integration
 **Database Design:**
 - Imported the cleaned dataset into SQL Server.
