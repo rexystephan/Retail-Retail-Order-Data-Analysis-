@@ -15,14 +15,14 @@ To analyze and optimize sales performance by uncovering actionable insights, suc
 #### Step 1: Data Extraction
 - **Source**: Kaggle dataset (!kaggle datasets download ankitbansal06/retail-orders -f orders.csv)
 - **Process**:
-API setup and dataset retrieval using the Kaggle library.
-Dataset downloaded as orders.csv.
+     API setup and dataset retrieval using the Kaggle library.
+     Dataset downloaded as orders.csv.
 #### Step 2: Data Cleaning
 **Tools**: Python (Pandas library)
 **Actions**:
 - Standardized column names for SQL compatibility (Order ID → order_id).
 - Handled missing values (e.g., replacing null numerical values with 0).
 - Derived new columns:
-    -- Discount: discount_percent * list_price*0.01
-    -- sale_price: list_price-discount
-    -- Profit: sale_price - cost_price
+    * Discount: discount_percent * list_price*0.01
+    * sale_price: list_price-discount
+    * Profit: sale_price - cost_price
